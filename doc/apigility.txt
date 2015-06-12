@@ -1,0 +1,48 @@
+*vimux-apigility.txt* Plugin for working with Zend Apigility Framework
+
+Author: David Saenz Tagarro <david.saenz.tagarro@gmail.com>
+
+===============================================================================
+CONTENTS                                                        *vimux-apigility*
+
+    1. Intro ............................................ |vimux-apigility-intro|
+    2. Requirements .............................. |vimux-apigility-requirements|
+    3. Usage ............................................ |vimux-apigility-usage|
+    4. About ............................................ |vimux-apigility-about|
+    5. Licence ........................................ |vimux-apigility-licence|
+===============================================================================
+1. Intro                                                  *vimux-apigility-intro*
+
+Vimux-apigility is designed to speed up your development workflow by providing
+commands related to Zend Apigility Framework
+
+It uses tmux's scriptability to send commands to a chosen pane in your
+tmux session.
+
+2. Requirements                                    *vimux-apigility-requirements*
+
+- Vim running inside tmux session
+- Installed plugin: 'benmills/vimux'
+
+3. Usage                                                  *vimux-apigility-usage*
+
+Commands in normal mode:
+
+:ApigilityDevMode - Enables devevelopment mode for admin console
+
+4. About                                                  *vimux-apigility-about*
+
+The latest stable version can be found at
+  http://www.vim.org/scripts/script.php?script_id=XXXX
+
+Bugs can be reported and the very latest development version can be retrieved
+from GitHub:
+  https://github.com/dsaenztagarro/vimux-apigility
+  git clone git://github.com/dsaenztagarro/vimux-apigility.git
+
+5. License                                              *vimux-apigility-license*
+
+Copyright (c) David Saenz Tagarro.  Distributed under the same terms as Vim itself.
+See |license|.
+
+ vim:tw=78:ts=8:ft=help:norl:
